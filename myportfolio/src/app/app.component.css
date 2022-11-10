@@ -1,0 +1,50 @@
+h1{
+    display: inline-block;
+    color: rgb(33, 33, 80);
+}
+nav{
+    display: inline-block;
+    margin-left: 30px;
+}
+a{
+    padding: 12px;
+    background-color: rgb(33, 33, 80);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px;
+}
+
+a:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+
+img{
+    width: 200px;
+    height: 300px;
+}
+.pi{
+    float: left;
+    width: 200px;
+    height: 600px;
+    background-color: rgb(33, 33, 80);
+    color: white;
+    text-align: center;
+}
+
+.role{
+    margin: 50px 0px 0px 50px;
+    color: gray;
+}
+.name{
+    margin:1px 0px 0px 50px ;
+    color: rgb(33, 33, 80);
+    font-weight: 800;
+    font-size: 50px;
+}
+.details{
+float: left;
+
+}

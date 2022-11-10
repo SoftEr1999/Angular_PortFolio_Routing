@@ -1,0 +1,35 @@
+<!-- <h1>{{title}}</h1>
+<h2>{{val|sqrt}}</h2>
+<span>
+  <ul>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/e-info">e-info</a></li>
+  </ul>
+</span> -->
+<header>
+<h1>Satyam.CV</h1>
+<nav>
+  <a href="/">About</a>
+  <a href="/skills">Skills</a>
+  <a href="/experience">Experience</a>
+  <a href="/education">Education</a>
+  <a href="/projects">Projects</a>
+  <a href="/testimonials">Testimonials</a>
+  <a href="/achievements">Achievements</a>
+  <a href="/contact">Contact</a>
+</nav>
+</header>
+<section>
+  <div class="pi">
+    <img [src]='path' alt="profile_image">
+    <h3>General Information</h3>
+    <p>Name: Satyam Choudhary<br><br>Location:Faridabad<br><br>Mobile:9889998988<br><br>Email:satyam@123</p>
+  </div>
+  <div class="details">
+    <p class="role">HTML5 & CSS Developer</p>
+    <h1 class="name">Satyam Choudhary</h1>
+    <router-outlet></router-outlet>
+  </div>
+</section>
+
+

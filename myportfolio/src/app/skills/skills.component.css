@@ -1,0 +1,11 @@
+.title{
+    margin: 50px 0px 0px 50px;
+    color: rgb(40, 40, 110);
+}
+.brief{
+    margin: 40px 0px 50px 50px;
+    color: gray;
+}
+.about{
+    width: 600px;
+}
